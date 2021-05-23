@@ -5,10 +5,11 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "12:00"
-      timezone: "Asia/Kolkata"
+      #interval: "weekly"
+      #day: "sunday"
+      #time: "12:00"
+      #timezone: "Asia/Kolkata"
+      interval: "daily"
     labels:
       - "Updates: github action"
       - "Updates: dependencies"
@@ -23,10 +24,11 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "12:00"
-      timezone: "Asia/Kolkata"
+      #interval: "weekly"
+      #day: "sunday"
+      #time: "12:00"
+      #timezone: "Asia/Kolkata"
+      interval: "daily"
     labels:
       - "Updates: dependencies"
     pull-request-branch-name:
